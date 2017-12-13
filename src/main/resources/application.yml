@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: 654321
+    url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&useSSL=false
+  jpa:
+    show-sql: true
+server:
+  context-path: /sell
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  path: D:\apache-tomcat-7.0.59\logs
+#  file: D:\apache-tomcat-7.0.59\logs\lyc.log
+#  level:
+#    com.lyc.exc.LoggerTest: debug
