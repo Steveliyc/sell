@@ -6,8 +6,21 @@ spring:
     url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&useSSL=false
   jpa:
     show-sql: true
+  jackson:
+    default-property-inclusion: non_null
 server:
   context-path: /sell
+
+wechart:
+  mpAppId: wx8f24e0c1659e3b6b
+  mpAppSecret: dee60b3a139a6651d72b94da73cee69a
+  mchId:
+  mchKey:
+  keyPath: D:\wxpay\h5.p12
+  notifyUrl: http://steve.natappvip.cc/sell/pay/notify
+
+
+
 #logging:
 #  pattern:
 #    console: "%d - %msg%n"

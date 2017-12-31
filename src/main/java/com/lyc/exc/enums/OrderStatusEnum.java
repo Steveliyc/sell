@@ -18,4 +18,5 @@ public enum OrderStatusEnum {
         this.code = code;
         this.desc = desc;
     }
+
 }
